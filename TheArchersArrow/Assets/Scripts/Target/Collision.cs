@@ -19,8 +19,9 @@ public class Collision : MonoBehaviour
         {
             if (col.gameObject.tag == "Arrow")
             {
+                 Debug.Log("oi");
                 Destroy(col.gameObject);
-                Debug.Log("oi");
+               
             }
         }
     
