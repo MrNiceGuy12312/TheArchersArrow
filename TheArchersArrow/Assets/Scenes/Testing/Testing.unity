@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 244168193}
   - component: {fileID: 244168198}
   - component: {fileID: 244168199}
+  - component: {fileID: 244168200}
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Arrow
@@ -279,6 +280,22 @@ CircleCollider2D:
   m_Offset: {x: 1.8203781, y: 1.6576934}
   serializedVersion: 2
   m_Radius: 0.17169394
+--- !u!114 &244168200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244168192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daf4c2e9b05c8c40a8af7b7481d9c14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxAmmo: 3
+  currentAmmo: -1
+  speed: 800
+  Arrow: {fileID: 244168192}
 --- !u!1 &666719519
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,7 +389,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1392583065}
   - component: {fileID: 1392583064}
-  - component: {fileID: 1392583063}
   - component: {fileID: 1392583062}
   - component: {fileID: 1392583067}
   m_Layer: 0
@@ -395,20 +411,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: {x: 0, y: 0}
---- !u!114 &1392583063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392583061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8daf4c2e9b05c8c40a8af7b7481d9c14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 800
-  Arrow: {fileID: 244168192}
 --- !u!212 &1392583064
 SpriteRenderer:
   m_ObjectHideFlags: 0
