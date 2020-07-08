@@ -23,9 +23,6 @@ public class Score : MonoBehaviour
         score.text = "Score:  " + scoreValue;
     }
 
-    void AddScore()
-    {
 
-    }
 
 }
