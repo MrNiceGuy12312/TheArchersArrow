@@ -17,12 +17,20 @@ public class Collision : MonoBehaviour
     }
         void OnCollisionEnter2D(Collision2D col)
         {
-            if (col.gameObject.tag == "Arrow")
-            {
-                 Debug.Log("oi");
+        
+
+            if (col.gameObject.tag == "Target")
+             {
+                Debug.Log("oi");
                 Destroy(col.gameObject);
-               
+
+            }
+
+            if (col.gameObject.tag == "Blockade")
+            {
+                Debug.Log("oiiii");
+                Destroy(col.gameObject);
+
             }
         }
-    
 }
