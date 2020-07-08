@@ -133,9 +133,9 @@ GameObject:
   - component: {fileID: 171618364}
   - component: {fileID: 171618363}
   - component: {fileID: 171618362}
-  - component: {fileID: 171618361}
   - component: {fileID: 171618360}
   - component: {fileID: 171618359}
+  - component: {fileID: 171618361}
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Arrow
@@ -198,10 +198,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 171618357}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 328cc8cbdb370c74f8d1dafd1c88b42b, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ccc9dfc5942c424b8e31c6106f445f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newLevel: Level 2
+  newLevel: Level 3
 --- !u!114 &171618362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -495,7 +495,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 328cc8cbdb370c74f8d1dafd1c88b42b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newLevel: 
 --- !u!212 &272450869
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1303,7 +1302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16817544811f17e46a38193b02b7aa95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direction: {x: 0, y: 0}
+  direction: {x: 1, y: 2}
 --- !u!212 &1071533821
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1949,8 +1948,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2010998456}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -42.202, y: -531.009, z: 0}
-  m_LocalScale: {x: 5.4157224, y: 3.3793428, z: 1}
+  m_LocalPosition: {x: -42.202, y: -530.654, z: 0}
+  m_LocalScale: {x: 5.4157224, y: 3.5652065, z: 1}
   m_Children: []
   m_Father: {fileID: 462432255}
   m_RootOrder: 0

@@ -226,9 +226,9 @@ GameObject:
   - component: {fileID: 244168196}
   - component: {fileID: 244168197}
   - component: {fileID: 244168193}
-  - component: {fileID: 244168198}
   - component: {fileID: 244168199}
   - component: {fileID: 244168200}
+  - component: {fileID: 244168198}
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Arrow
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 244168192}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 328cc8cbdb370c74f8d1dafd1c88b42b, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ccc9dfc5942c424b8e31c6106f445f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   newLevel: Level 2
